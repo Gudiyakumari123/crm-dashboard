@@ -1,0 +1,123 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500&family=Source+Sans+Pro:wght@200;400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500&family=Kdam+Thmor+Pro&display=swap");
+@import "antd/dist/antd.css";
+/* React Toastify */
+@import "animate.css/animate.min.css";
+@import "react-toastify/dist/ReactToastify.css";
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Arial, sans-serif !important;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* .btn {
+  outline: none;
+  box-shadow: none;
+  font-size: 13px;
+  border: none;
+  padding: 8px 45px;
+} */
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #dbdbdb;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #0d6efd40 !important;
+}
+select.form-control {
+  -webkit-appearance: menulist;
+}
+
+.react-select {
+  width: 100%;
+}
+
+.dummy-img {
+  width: 40px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Toastify__toast-theme--dark {
+  background: #abb7bf;
+  color: #fff;
+}
+
+.Toastify__progress-bar-theme--dark {
+  background-color: #39a3f4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error-maessage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  /* margin-top: -15px; */
+  font-size: 13px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.col {
+  width: 100%;
+  padding: 0;
+  gap: 12px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row {
+  padding: 0 !important;
+}
+
+.btn {
+  outline: none;
+  box-shadow: none;
+  font-size: 13px;
+  border: none;
+  /* padding: 8px 45px; */
+  height: 36px;
+  min-width: 120px;
+}

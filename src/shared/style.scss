@@ -1,0 +1,78 @@
+@import "../styles/mixin";
+@import "../styles/variables";
+// Table Content
+
+.table__container {
+  width: 100%;
+  height: 100%;
+  // background-color: $color-primary;
+  .table__content {
+    width: 100%;
+    // margin: 0px auto;
+
+    .table__wrapper {
+      .search__input {
+        border: 1px solid lightgray;
+        outline: none;
+        height: 36px;
+        padding: 0 20px;
+        margin-right: 30px;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+      .MuiTableCell-root {
+        border-bottom: 1px solid #fafafa;
+        height: 40px;
+      }
+      .css-1q1u3t4-MuiTableRow-root {
+        border: none !important;
+        &:nth-last-child(even) {
+          background-color: #f3f8fa8c !important;
+        }
+      }
+      .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+        padding: 2px !important;
+        margin-left: 5px !important;
+      }
+      table {
+        font-size: 13px !important;
+        thead {
+          font-size: 10px !important;
+        }
+        .css-177gid-MuiTableCell-root {
+          text-align: left;
+          padding: 16px 28px;
+          font-size: 13px;
+        }
+        .css-1azl6jz-MuiTableCell-root {
+          text-align: left;
+          font-size: 13px;
+        }
+        .css-11w94w9-MuiTableCell-root {
+          font-size: 13px;
+        }
+        .css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon {
+          color: lightgray;
+          opacity: 0.7;
+        }
+        .css-1sgp6db {
+          text-align: left;
+          font-size: 13px;
+        }
+        .css-1gqug66 {
+          &:nth-last-child(even) {
+            background-color: #f3f8fa8c !important;
+          }
+        }
+        .css-1i36psw {
+          font-size: 13px;
+          text-align: left;
+        }
+        .table__container .table__content .table__wrapper .MuiTableCell-root {
+          text-align: left;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
