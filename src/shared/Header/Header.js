@@ -82,7 +82,7 @@ class Header extends React.Component {
             <div className="megamenu__content">
               <ul>
                 <li>
-                  <NavDropdown
+                  {/* <NavDropdown
                     title={
                       <span>
                         <i className="bx bx-home-alt-2"></i> Leads
@@ -93,7 +93,7 @@ class Header extends React.Component {
                     <Link to="/leadEntry" className="dropdown-item">
                       <i className="bx bxs-bar-chart-square"></i> Lead Entry
                     </Link>
-                  </NavDropdown>
+                  </NavDropdown> */}
                   <NavDropdown
                     title={
                       <span>
@@ -156,15 +156,91 @@ class Header extends React.Component {
                   <NavDropdown
                     title={
                       <span>
-                        <i className="bx bx-book-open"></i> Accounts
+                        <i className="bx bx-book-open"></i> Sales
                       </span>
                     }
                     id="collasible-nav-dropdown"
                   >
                     <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Customer
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Customer Product
+                    </Link>
+                  </NavDropdown>
+                  <NavDropdown
+                    title={
+                      <span>
+                        <i className="bx bx-book-open"></i> HR
+                      </span>
+                    }
+                    id="collasible-nav-dropdown"
+                  >
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Staff Details
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Payroll
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Attendance
+                    </Link>
+                  </NavDropdown>
+                  <NavDropdown
+                    title={
+                      <span>
+                        <i className="bx bx-book-open"></i> Admin
+                      </span>
+                    }
+                    id="collasible-nav-dropdown"
+                  >
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Stock
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Aggrements
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Suppliers
+                    </Link>
+                  </NavDropdown>
+                  <NavDropdown
+                    title={
+                      <span>
+                        <i className="bx bx-book-open"></i> Accounts
+                      </span>
+                    }
+                    id="collasible-nav-dropdown"
+                  >
+                     <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Order
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Transaction / Sales 
+                    </Link> <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Operational
+                    </Link> <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Financial
+                    </Link> <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Tax
+                    </Link>
+                    <Link to="/voucher-entry" className="dropdown-item">
                       <i className="bx bx-cabinet"></i> Voucher Entry
                     </Link>
                   </NavDropdown>
+                  <NavDropdown
+                    title={
+                      <span>
+                        <i className="bx bx-book-open"></i> Customer Excellence
+                      </span>
+                    }
+                    id="collasible-nav-dropdown"
+                  >
+                     <Link to="/voucher-entry" className="dropdown-item">
+                      <i className="bx bx-cabinet"></i> Enqueries
+                    </Link>
+                  </NavDropdown>
+                  
                 </li>
               </ul>
             </div>
