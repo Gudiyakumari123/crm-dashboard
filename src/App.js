@@ -71,11 +71,15 @@ import AreaWiseCustomersList from "./components/Pages/Forms/Customer/AreaCusList
 import CountryWiseCustomersList from "./components/Pages/Forms/Customer/CountryCusList";
 import CustomersSummary from "./components/Pages/Forms/Customer/CustomerSummary";
 
+//HR routes
+import StaffDetails from "./components/Pages/Forms/HR/StaffDetails";
+import StaffDemo from "./components/Pages/Forms/HR/staff"
 // Accounts Routes
 
 import VoucherEntry from "./components/Pages/Forms/Accounts/VoucherEntry";
 import VoucherEntryEdit from "./components/Pages/Forms/Accounts/VoucherEntry/Edit";
 import VoucherEntryCreate from "./components/Pages/Forms/Accounts/VoucherEntry/Create";
+
 
 // Users Routes
 
@@ -224,6 +228,10 @@ const App = () => {
               element={<CountryWiseCustomersList />}
             />
             <Route path="/customer-summary" element={<CustomersSummary />} />
+
+            {/* HR Routers  */}
+            <Route path="/staff-details" element={<StaffDetails/>}/>
+            <Route path="/staff-demo" element={<StaffDemo/>}/>
 
             {/* Accounts Routers */}
 

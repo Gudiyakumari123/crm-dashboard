@@ -4,7 +4,8 @@
 .form-container {
   width: 100%;
   height: 100%;
-  min-height: 75vh;
+  // min-height: 75vh;
+
   .form-content {
     width: 95%;
     height: 100%;
@@ -14,11 +15,20 @@
     border-radius: 4px;
     box-shadow: 0px 0px 12px #ddd;
     margin-bottom: 1.5rem;
+
     @include for-phone-only {
       padding: 20px;
     }
+
     .container {
       padding: 30px;
+      // width:30px;
+      // height: 100%;
+
+      form {
+        // width:30px;
+      }
+
     }
 
     .title {
@@ -28,6 +38,7 @@
       margin-bottom: 1.3rem;
       margin-left: -33px;
     }
+
     .phone-only {
       @include for-phone-only {
         // background-color: red;
@@ -35,30 +46,84 @@
         gap: 10px !important;
       }
     }
+
     .ref-select {
       margin-left: 3px;
     }
+
     .install-select {
       margin-left: 17px;
     }
+
     .status-select {
       margin-left: 15px;
     }
-    .category-select {
-      margin-left: 14px;
+
+    styles css for staff details page .employeeType-select {
+      margin-left: 0px;
     }
+
+    .ReportLine-select {
+      margin-left: 4px;
+    }
+
+    .department-select {
+      margin-left: 20px;
+    }
+
+    .designation-select {
+      margin-left: 22px;
+    }
+
+    .Gender-select {
+      margin-left: 45px;
+    }
+
+    .BloodGroup-select {
+      margin-left: 10px;
+    }
+
+    .Religion-select {
+      margin-left: 38px;
+    }
+
+    .nationality-select {
+      margin-left: 10px;
+    }
+
+    .country-selecting {
+      margin-left: 25px;
+    }
+
+    .state-select {
+      margin-left: 40px;
+    }
+
+    .marital-select {
+      margin-left: 6px;
+
+    }
+
+    .educational-select {
+      margin-left: 10px;
+    }
+
     .country-select {
       margin-left: 8px;
     }
+
     .status-select-13 {
       margin-left: 18px;
     }
+
     .bill-select {
       margin-left: 52px;
     }
+
     .entry-select {
       margin-left: 25px;
     }
+
     .PhoneInput {
       border: 1px solid #e3e3e3;
       border-radius: 4px;
@@ -66,9 +131,11 @@
       padding: 10px 5px;
       width: 100%;
       outline: none;
+
       @include for-phone-only {
         width: 100%;
       }
+
       input {
         border: none;
         outline: none;
@@ -99,6 +166,7 @@
       height: 50px;
       display: flex;
       align-items: center;
+
       i {
         margin-right: -40px;
         position: relative;
@@ -107,6 +175,7 @@
         font-size: 1.2rem;
         color: #9b9b9b;
       }
+
       .search-box {
         width: 100%;
         height: 100%;
@@ -116,12 +185,15 @@
     }
   }
 }
+
 .row {
   gap: 10px;
+
   @include for-phone-only {
     flex-direction: column;
   }
 }
+
 .ant-picker {
   width: 100%;
   height: 36px;
@@ -131,10 +203,12 @@
     display: none;
   }
 }
+
 .css-1wa3eu0-placeholder {
   font-size: 12px;
   color: #e3e3e3;
 }
+
 .error-message {
   color: red;
   font-size: 11px;
@@ -143,11 +217,13 @@
   align-items: center;
   justify-content: flex-end;
 }
+
 li.list-group-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .alt-contact .PhoneInputCountry {
   display: none;
 }
@@ -156,9 +232,11 @@ li.list-group-item {
   max-height: 100px !important;
   background-color: red !important;
 }
+
 .form-control.PhoneInput {
   width: 100%;
 }
+
 textarea.form-control {
   @include for-phone-only {
     margin-bottom: 10px;

@@ -82,7 +82,7 @@ class Header extends React.Component {
             <div className="megamenu__content">
               <ul>
                 <li>
-                  {/* <NavDropdown
+                  <NavDropdown
                     title={
                       <span>
                         <i className="bx bx-home-alt-2"></i> Leads
@@ -93,7 +93,7 @@ class Header extends React.Component {
                     <Link to="/leadEntry" className="dropdown-item">
                       <i className="bx bxs-bar-chart-square"></i> Lead Entry
                     </Link>
-                  </NavDropdown> */}
+                  </NavDropdown>
                   <NavDropdown
                     title={
                       <span>
@@ -153,7 +153,7 @@ class Header extends React.Component {
                       Entry
                     </Link>
                   </NavDropdown>
-                  <NavDropdown
+                  {/* <NavDropdown
                     title={
                       <span>
                         <i className="bx bx-book-open"></i> Sales
@@ -239,7 +239,7 @@ class Header extends React.Component {
                      <Link to="/voucher-entry" className="dropdown-item">
                       <i className="bx bx-cabinet"></i> Enqueries
                     </Link>
-                  </NavDropdown>
+                  </NavDropdown> */}
                   
                 </li>
               </ul>

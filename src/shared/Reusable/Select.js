@@ -22,7 +22,10 @@ function ReactSelect({
         </label>
         <Select
           value={value}
-          className="form-control"
+          // className="form-control"
+
+          // className="select-form"
+          // className="department"
           name={name}
           options={options}
           placeholder={placeholder}
